@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mosa Web Development | Example Store</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="store.js" async></script>
+    </head>
+    <body class="index-body">
+        <header class="header-cont">
+            <nav class="main-nav">
+                <button class="nav-button" onclick="window.location.href='index.html'">
+                    Home
+                </button>
+                <button class="nav-button" onclick="window.location.href='storefront.html'">
+                    Store
+                </button>
+            </nav>
+            <h1 class="main-header">Example Store</h1>
+        </header>
+
+        <div class="site-body">
+            <h2 class="section-header">Kettles</h2>
+            <section class="listings">
+                <div class="shop-item">
+                    <span class="shop-item-title">Black Kettle</span>
+                    <img class="shop-item-image" src="./images/black-kettle.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">White Kettle</span>
+                    <img class="shop-item-image" src="./images/white-kettle.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Black Kettle</span>
+                    <img class="shop-item-image" src="./images/black-kettle.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Black Kettle</span>
+                    <img class="shop-item-image" src="./images/black-kettle.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="cart">
+                <div class ='cart-items'>
+                <u><h2 class="cart-title">Cart</h2></u>
+                <div class="cart-header-cont">
+                    <span class="cart-header">Item</span>
+                    <span class="cart-header">Price</span>
+                    <span class="cart-header">Quantity</span>
+                </div>
+
+                <div class="cart-item">
+                    <div class="cart-col1">
+                        <img class="cart-item-image" src="./images/black-kettle.jpg">
+                        <span class="cart-item-name">Black Kettle</span>
+                    </div>
+                    <span class="cart-price">$9.99</span>
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button role="button" class="cart-remove">Remove</button>
+                </div>
+
+                <div class ="cart-item">
+                    <div class="cart-col1">
+                        <img class="cart-item-image" src="./images/white-kettle.jpg">
+                        <span class="cart-item-name">White Kettle</span>
+                    </div>
+                    <span class="cart-price">$9.99</span>
+                    
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button role="button" class="cart-remove">Remove</button>
+                </div>
+                </div>
+
+                <div class="divide-line-black"></div>
+
+                <div class="purchase-section">
+                    <div>
+                        <strong>Cart Total: </strong>
+                        <span class="cart-total-price">$29.97</span>
+                    </div>
+                    <div>
+                        <button role="button">Purchase</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- <div class="divide-line"></div> -->
+        
+        <footer class="footer-cont">
+            <nav class="main-nav">
+                <div class="foot-button-cont">
+                    <button class="nav-button" onclick="window.location.href='index.html'">
+                        Home
+                    </button>
+                    <button class="nav-button" onclick="window.location.href='storefront.html'">
+                        Store
+                    </button>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
